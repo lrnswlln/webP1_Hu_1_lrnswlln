@@ -1,0 +1,29 @@
+$primary-green-light: #80A553;
+$primary-green-dark: #2A4610;
+$light-green-bg: #F4EFEB;
+$reddish-brown: #9C4A38;
+
+.text {
+  &-primary-green-light {
+    color: $primary-green-light;
+  }
+
+  &-primary-green-dark {
+    color: $primary-green-dark;
+  }
+
+  &-reddish-brown {
+    color: $reddish-brown !important;
+  }
+}
+
+.bg {
+  &-light-green {
+    background-color: $light-green-bg;
+  }
+
+  &-reddish-brown {
+    background-color: $reddish-brown !important;
+  }
+}
+

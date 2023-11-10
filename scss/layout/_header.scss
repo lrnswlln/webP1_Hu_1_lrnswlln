@@ -1,0 +1,15 @@
+.navbar {
+  .nav-link {
+    color: $primary-green-light;
+  }
+
+  .search {
+    background-color: $light-green-bg;
+  }
+}
+
+@include media-breakpoint-down(xl) {
+  .nav-item.h3 {
+    font-size: 22px;
+  }
+}

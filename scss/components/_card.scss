@@ -1,0 +1,18 @@
+.card {
+  &-title {
+    color: unset;
+    font-size: 18px;
+  }
+
+  .bg-dark-op {
+    background: rgba(0,0,0,0.3);
+  }
+
+  &.zoom {
+    transition: transform .2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.accordion {
+  &-item {
+    width: 232px;
+  }
+
+  &-collapse {
+    margin-right: 2rem;
+  }
+
+  &-button:not(.collapsed) {
+    background-color: unset !important;
+  }
+
+  &-button:focus {
+    box-shadow: unset !important;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .accordion {
+    width: 100%;
+
+    &-item {
+      width: 100%;
+    }
+  }
+}
